@@ -32,6 +32,14 @@ header {
   font-weight: lighter;
 }
 
+@media (max-width: 768px) {
+  .name {
+    font-size: 70px;
+    font-weight: 100;
+    margin-bottom: 20px;
+  }
+}
+
 .des {
 	font-family : Helvetica;
 	font-size: 30px;
@@ -68,6 +76,15 @@ header {
 	padding-top : 10px;
 	padding-bottom : 20px;
 }
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 50px;
+    font-weight: 100;
+    margin-bottom: 20px;
+  }
+}
+
 
 .subtitle {
 	font-size : 22px;
@@ -202,7 +219,7 @@ img.img-article {
 }
 
 .timeline-content {
-  margin-left : 143px;
+  margin-left : 135px;
   position : relative;
   background : #222930;
   border-radius : 5px;
